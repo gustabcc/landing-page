@@ -22,7 +22,7 @@
 }
 
 .main-content h2 {
-    color: #E5E7EB;
+    color: #F9FaF8;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -98,4 +98,45 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Second Section */
+
+.main-content .sectionTwo {
+    background-color: #F9FaF8;
+}
+
+.main-sectionTwo {
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.main-sectionTwo h2{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.group-infos {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: solid 6px;
+    border-radius: 16px;
+    border-color: #3882F6;
+    text-align: center;
+}
+
+.info p {
+    margin-top: 10px;
 }
