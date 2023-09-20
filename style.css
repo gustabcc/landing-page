@@ -116,15 +116,15 @@
     text-align: center;
     color: #1F2937;
     font-size: 36px;
-    padding-top: 10px;
+    padding-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .group-infos {
     display: flex;
-    gap: 25px;
+    gap: 50px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -139,4 +139,6 @@
 
 .info p {
     margin-top: 10px;
+    width: 200px;
+    flex-wrap: wrap;
 }
