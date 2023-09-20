@@ -41,3 +41,61 @@
 
 /* First Section */
 
+.sectionOne {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.leftOne {
+    width: 600px;
+}
+
+.leftOne h1 {
+    font-size: 48px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FaF8;
+    font-weight: bold;
+}
+
+.leftOne p {
+    font-size: 18px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+}
+
+.leftOne a {
+    display: block;
+    background-color: #3882F6;
+    padding: 8px 12px;
+    width: 125px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #F9FaF8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.rightOne {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightOne p {
+    width: 600px;
+    height: 217px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
