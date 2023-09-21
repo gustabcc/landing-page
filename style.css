@@ -142,3 +142,35 @@
     width: 200px;
     flex-wrap: wrap;
 }
+
+/* Section three */
+
+.sectionThree {
+    background-color: #E5E7EB;
+}
+
+.main-sectionThree {
+    max-width: 960px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.main-sectionThree p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    max-width: 960px;
+    height: 50px;
+    color: #1F2937;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
